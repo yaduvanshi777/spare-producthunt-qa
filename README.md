@@ -1,6 +1,6 @@
 # Product Hunt — QA Quality Engineering & Security Assessment Suite
 
-[![CI](https://github.com/spare-takehome/producthunt-qa/actions/workflows/qa.yml/badge.svg)](https://github.com/spare-takehome/producthunt-qa/actions/workflows/qa.yml)
+[![CI](https://github.com/yaduvanshi777/spare-producthunt-qa/actions/workflows/qa.yml/badge.svg)](https://github.com/yaduvanshi777/spare-producthunt-qa/actions/workflows/qa.yml)
 [![Runtime](https://img.shields.io/badge/Runtime-Bun%20v1.4+-black?logo=bun)](https://bun.sh)
 [![Test Runner](https://img.shields.io/badge/E2E-Playwright-brightgreen?logo=playwright)](https://playwright.dev)
 [![Language](https://img.shields.io/badge/Language-TypeScript%205.x-blue?logo=typescript)](https://www.typescriptlang.org)
@@ -90,7 +90,7 @@ Spare operates an API-first, security-first Open Banking platform across regulat
 ### 1-Minute Setup
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/spare-producthunt-qa.git
+git clone https://github.com/yaduvanshi777/spare-producthunt-qa.git
 cd spare-producthunt-qa
 
 # 2. Install dependencies via Bun
