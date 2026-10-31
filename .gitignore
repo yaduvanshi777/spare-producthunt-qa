@@ -12,6 +12,10 @@ playwright/.cache/
 .env
 .env.local
 
+# Private Candidate Notes
+INTERVIEW_PREP.md
+interview_notes/
+
 # Logs & temp
 *.log
 .DS_Store

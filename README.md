@@ -19,7 +19,6 @@ A comprehensive, production-ready quality engineering solution built for **Produ
 5. [Summary of Key Findings](#summary-of-key-findings)
 6. [Architecture Decisions](#architecture-decisions)
 7. [What I'd Do With More Time (Scaling Strategy)](#what-id-do-with-more-time-scaling-strategy)
-8. [Interview Walkthrough & Live Demo Guide](#interview-walkthrough--live-demo-guide)
 
 ---
 
@@ -173,23 +172,3 @@ If operationalizing this quality infrastructure for a growing engineering team, 
 5. **Mutation Testing**:
    - Use Stryker Mutator to inject synthetic bugs into business logic and verify that the test suite actually catches them, measuring true test effectiveness rather than mere code coverage percentages.
 
----
-
-## 8. Interview Walkthrough & Live Demo Guide
-
-To demo this suite during the technical interview or write a new test on the spot:
-
-```bash
-# 1. Run the entire suite (API + E2E)
-bun run test:all
-
-# 2. Run only the GraphQL API tests (observe the 150ms execution speed)
-bun run test:api
-
-# 3. Run Playwright in interactive UI mode to visually inspect steps, DOM snapshots, and locators
-bun run test:e2e:ui
-```
-
-### Adding a New Test On The Spot:
-- **E2E**: Add a new scenario to `tests/e2e/` utilizing existing Page Objects (`HomePage`, `ProductDetailPage`, `SearchPage`, `TopicPage`).
-- **API**: Add a new query test in `tests/api/` using `getTestClient().execute(QUERY, variables)`.
